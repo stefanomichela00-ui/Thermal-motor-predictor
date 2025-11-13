@@ -6,3 +6,5 @@ The goal of this project is to design and test a motor temperature predictor cap
 
 Source: https://www.opendatabay.com/data/consumer/ab235a62-f7ab-4fd5-ac24-f42945583f88
 
+## Workflow
+According to the literature reviewed (https://young-wombat-ba9.notion.site/Thermal-Analysis-and-Simulation-for-Electric-Motors-2865c07cd00380eab2f0c9f414ca1273?source=copy_link), three different thermal prediction approaches are implemented and compared. First, a physics-based predictor using a lumped-parameter (RC) thermal model is developed and validated. Next, a black-box model, trained directly on experimental data, is introduced to capture nonlinear relationships between operating variables and temperature evolution. Finally, a hybrid approach, referred to as a Thermal Neural Network (TNN), combines the physical RC model with a neural correction layer to improve accuracy while maintaining interpretability. The performance of these three models is evaluated and compared in terms of prediction accuracy and computational efficiency, in order to determine the most suitable method for real-time motor thermal estimation.
